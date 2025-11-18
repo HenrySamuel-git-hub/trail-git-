@@ -1,0 +1,67 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #fdf9f3;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.biodata-card {
+  background: #fffaf0;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.name {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.details {
+  flex: 1 1 60%;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.photo {
+  flex: 1 1 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section p {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.6;
+}
